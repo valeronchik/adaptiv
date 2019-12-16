@@ -1,0 +1,600 @@
+@font_bold: 'montserratextrabold';
+@font_medium: 'MontserratMediumItalic';
+@font: 'montserratmedium';
+@black: 'montserratblack';
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.btn {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9236e+0,f92348+100 */
+	background: #f9236e;
+	/* Old browsers */
+	background: -moz-linear-gradient(left, #f9236e 0%, #f92348 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f9236e 0%, #f92348 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f9236e 0%, #f92348 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9236e', endColorstr='#f92348', GradientType=1);
+	/* IE6-9 */
+	color: #fff;
+	font-family: @font_bold;
+	text-decoration: none;
+}
+
+header {
+	background: url(../img/top-bg.jpg) no-repeat top center;
+	background-size: cover;
+	height: 75px;
+
+	.container {
+		.row {
+			.header_text {
+				p {
+					font-size: 20px;
+					font-family: @font_bold;
+					color: #ffffff;
+					line-height: 75px;
+				}
+			}
+
+			.header_btn {
+				height: 33px;
+				width: 33px;
+				background-color: #fff;
+				font-family: @font_bold;
+				margin: 19px auto;
+				line-height: 33px;
+				text-align: center;
+
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				border-radius: 50px;
+			}
+		}
+	}
+}
+
+.banner {
+	background: url(../img/banner-bg.jpg) no-repeat top center;
+	background-size: cover;
+
+	.container {
+		.row {
+			.banner_text {
+				font-family: @font_bold;
+				text-align: center;
+
+				h1 {
+					padding-top: 280px;
+					font-size: 120px;
+					text-transform: uppercase;
+					line-height: 86px;
+					text-align: center;
+
+					span {
+						color: #f9236f;
+					}
+				}
+
+				h2 {
+					font-size: 50px;
+					letter-spacing: 76px;
+				}
+
+				p {
+					padding-top: 32px;
+					font-family: @font;
+					color: #68757b;
+					font-size: 16px;
+					font-style: normal;
+				}
+
+				div {
+					padding-top: 60px;
+					padding-bottom: 255px;
+
+					.button {
+						.btn;
+						display: inline-block;
+						height: 48px;
+						width: 158px;
+						font-size: 20px;
+						line-height: 48px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.second-wrap {
+	background: url(../img/adv-bg.jpg) no-repeat top center;
+	background-size: cover;
+
+	.container {
+		background: #fff;
+		position: relative;
+		top: -55px;
+		z-index: 999;
+
+		.row {
+			div {
+				margin: auto;
+
+				.logo {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: -65px auto;
+					width: 130px;
+					height: 130px;
+					background-color: #fff;
+
+					-webkit-border-radius: 100px;
+					-moz-border-radius: 100px;
+					border-radius: 100px;
+				}
+
+				h3 {
+					padding-top: 40px;
+					font-family: 'montserratblack';
+					font-size: 30px;
+					text-align: center;
+				}
+
+				p {
+					font-family: @black;
+					font-size: 16px;
+					text-align: center;
+				}
+			}
+
+			padding-bottom: 110px;
+		}
+
+		.promo_wrap {
+			.p-first {
+				background: url(../img/promo-img-1.jpg) no-repeat top center;
+
+				.promo-text {
+					width: 235px;
+					margin-left: 60px;
+
+					h3 {
+						text-align: left;
+
+						span {
+							color: #f9236f;
+						}
+					}
+
+					p {
+						text-align: left;
+						font-family: @font;
+						padding-bottom: 30px;
+						font-size: 14px;
+					}
+				}
+
+				.button {
+					display: inline-block;
+					height: 47px;
+					width: 156px;
+					font-size: 20px;
+					line-height: 48px;
+					text-align: center;
+					.btn;
+				}
+
+				padding-bottom: 45px;
+			}
+
+			.p-second {
+				background: url(../img/promo-img-2.jpg) no-repeat top center;
+
+				.promo-text {
+					width: 235px;
+					margin-left: 60px;
+
+					h3 {
+						text-align: left;
+
+						span {
+							color: #f9236f;
+							text-align: start;
+						}
+					}
+
+					p {
+						text-align: left;
+						font-family: @font;
+						padding-bottom: 30px;
+						font-size: 14px;
+					}
+				}
+
+				.button {
+					margin: 0 auto;
+					display: inline-block;
+					height: 47px;
+					width: 156px;
+					font-size: 20px;
+					line-height: 48px;
+					text-align: center;
+					.btn;
+				}
+
+				padding-bottom: 45px;
+			}
+		}
+
+		.carusel {
+			text-align: center;
+
+			h3 {
+				font-size: 25px;
+				font-family: @black;
+			}
+
+			p {
+				font-size: 16px;
+				font-family: @font;
+			}
+
+			.row {
+				.c-text {
+					h4 {
+						font-style: 18px;
+						font-family: @font_bold;
+					}
+
+					.nike {
+						font-family: @font;
+					}
+
+					.line-through {
+						text-decoration: line-through;
+						font-family: @font;
+						font-size: 14px;
+					}
+
+					.price {
+						display: inline-block;
+						font-family: @font_bold;
+						font-size: 14px;
+					}
+				}
+			}
+
+			.owl-nav .owl-prev,
+			.owl-nav .owl-next {
+				margin-right: 6px;
+				width: 23px;
+				height: 23px;
+				background: #cacaca;
+				color: #fff;
+
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+			}
+
+			.owl-nav .owl-prev:hover,
+			.owl-nav .owl-next:hover {
+				background: #f9236e;
+			}
+		}
+	}
+}
+
+.women {
+	position: relative;
+	top: -140px;
+	z-index: 55;
+	background: url(../img/backgroond.png) no-repeat top center;
+	background-size: cover;
+
+	.container {
+		text-align: center;
+
+		h2 {
+			padding-top: 100px;
+			font-size: 25px;
+			font-family: @font_bold;
+		}
+
+		p {
+			font-size: 16px;
+			font-family: @font;
+			padding-bottom: 50px;
+		}
+
+		.row {
+			div.item {
+				padding: 0;
+				background: #fff;
+				width: 350px;
+				text-align: left;
+				margin-right: 60px;
+				margin-bottom: 185px;
+
+				img {
+					width: 100%;
+				}
+
+				.text {
+					padding: 35px 0px 0px 27px;
+
+					h4 {
+						font-family: @font_bold;
+						font-size: 20px;
+						color: #515151;
+					}
+
+					span {
+						font-size: 16px;
+						font-family: @font;
+						color: #b6b6b6;
+					}
+
+					p {
+						padding-top: 30px;
+						font-size: 16px;
+						color: #515151;
+						font-family: @font;
+						padding-bottom: 28px;
+					}
+
+					.button {
+						height: 30px;
+						width: 100px;
+						display: inline-block;
+						line-height: 30px;
+						font-size: 15px;
+						text-align: center;
+						.btn;
+					}
+
+					padding-bottom: 27px;
+				}
+			}
+
+			div:last-child {
+				margin-right: 0px;
+			}
+		}
+	}
+}
+
+section.sale {
+	background: url(../img/adv-bg.jpg) no-repeat top center;
+	background-size: cover;
+	position: relative;
+	top: -145px;
+
+	.container {
+		background: #fff;
+		position: relative;
+		top: -107px;
+		z-index: 75;
+
+		.row {
+			padding-top: 50px;
+
+			.sale-item {
+				h3 {
+					font-style: 18px;
+					font-family: @font_bold;
+					text-align: center;
+					padding-bottom: 55px;
+				}
+
+				.sale-wrap {
+					display: flex;
+					justify-content: space-between;
+					margin: 0px 0px 0px 15px;
+					width: 260px;
+
+					.s-item-text {
+						h4 {
+							font-style: 18px;
+							font-family: @font_bold;
+							margin-top: 0px;
+						}
+
+						.nike {
+							font-family: @font;
+							padding-bottom: 5px;
+							margin: 0px;
+						}
+
+						.line-through {
+							text-decoration: line-through;
+							font-family: @font;
+							font-size: 14px;
+						}
+
+						.price {
+							display: inline-block;
+							font-family: @font_bold;
+							font-size: 14px;
+							margin: 0px;
+						}
+					}
+				}
+			}
+		}
+
+		.form {
+			text-align: center;
+
+			h2 {
+				padding-top: 70px;
+				font-size: 25px;
+				font-family: @font_bold;
+			}
+
+			p {
+				font-size: 16px;
+				font-family: @font;
+				margin-bottom: 36px;
+			}
+
+			input {
+				height: 40px;
+				width: 538px;
+				font-size: 24px;
+				font-family: @font;
+				margin-bottom: 56px;
+			}
+
+			.button {
+				margin-left: 7px;
+				height: 40px;
+				width: 115px;
+				display: inline-block;
+				line-height: 40px;
+				font-size: 15px;
+				text-align: center;
+				.btn;
+			}
+		}
+	}
+}
+
+.investor {
+	background: #eeeeee;
+	text-align: center;
+	height: 312px;
+	position: relative;
+	top: -350px;
+
+	img {
+		margin-top: 165px;
+	}
+}
+
+footer {
+	background: url(../img/footer.png) no-repeat top center;
+	background-size: cover;
+	padding-top: 75px;
+	position: relative;
+	top: -350px;
+
+	.container {
+		.row {
+			.about {
+				h3 {
+					color: #fff;
+					font-size: 20px;
+					font-family: @font_bold;
+					padding-bottom: 21px;
+				}
+
+				p {
+					color: #fff;
+					font-size: 15px;
+					font-family: @font;
+					padding-bottom: 20px;
+				}
+
+				a {
+					color: #fff;
+					font-size: 16px;
+					display: block;
+					text-decoration: none;
+					font-family: @font;
+					padding-bottom: 20px;
+
+					i {
+						padding-right: 7px;
+						font-size: 18px;
+					}
+				}
+			}
+
+			.account,
+			.product {
+				h3 {
+					color: #fff;
+					font-size: 20px;
+					font-family: @font_bold;
+					padding-bottom: 21px;
+				}
+
+				a {
+					color: #fff;
+					font-size: 16px;
+					display: block;
+					text-decoration: none;
+					font-family: @font;
+					padding-bottom: 20px;
+				}
+			}
+
+			.follow {
+				h3 {
+					color: #fff;
+					font-size: 20px;
+					font-family: @font_bold;
+				}
+
+				.follow {
+					a {
+						color: #fff;
+						font-size: 16px;
+						display: block;
+						text-decoration: none;
+						font-family: @font;
+						padding-bottom: 20px;
+
+						i {
+							padding-right: 7px;
+							font-size: 18px;
+						}
+					}
+				}
+			}
+
+			.bottom-text {
+				padding: 80px 0px 43px 0px;
+				margin: 0 auto;
+				width: 535px;
+				display: flex;
+				justify-content: space-between;
+				// flex-flow: row wrap;
+
+				a {
+					color: #fff;
+					display: inline-block;
+					font-size: 16px;
+					text-decoration: none;
+					font-family: @font;
+					padding-bottom: 20px;
+				}
+			}
+
+			.reserved {
+				margin: 0 auto;
+				text-align: center;
+
+				p {
+					color: #fff;
+					font-size: 16px;
+					padding-bottom: 100px;
+				}
+			}
+		}
+	}
+}
