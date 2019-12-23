@@ -1,3 +1,9 @@
+@media (max-width: 320px) {
+	section.sale .container .row .sale-item .sale-wrap {
+		margin: auto;
+	}
+}
+
 @media (max-width: 468px) {
 	header .container .row .header_text p {
 		font-size: 14px;
@@ -24,6 +30,7 @@
 		width: 95px;
 		font-size: 13px;
 	}
+
 }
 
 @media (max-width: 479) {
@@ -52,6 +59,11 @@
 
 	.women .container .row .item {
 		text-align: center;
+	}
+
+	section.sale .container .row .sale-item img {
+		display: block;
+		margin: 0 auto;
 	}
 }
 
